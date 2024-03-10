@@ -1,0 +1,10 @@
+[Unit]
+Description=Power loss auto shutdown
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/plsd.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
