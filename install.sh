@@ -31,5 +31,5 @@ sudo systemctl start x729-pwr
 sudo systemctl start x729-fan
 
 echo "Setting up software shutdown."
-echo "alia x729off='sudo /usr/local/bin/x729-softsd.sh'" >> ~/.bashrc
+echo "alias x729off='sudo /usr/local/bin/x729-softsd.sh'" >> ~/.bashrc
 source ~/.bashrc
